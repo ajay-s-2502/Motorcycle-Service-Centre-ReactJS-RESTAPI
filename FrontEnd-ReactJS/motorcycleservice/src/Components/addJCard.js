@@ -69,12 +69,12 @@ const Add = () => {
                     
                     <div className="user-box">
                         
-                        <input type="text" name='jobcard' value={jcard.jobcard} onChange={handleChange} required/>
+                        <input autoComplete='off type="text" name='jobcard' value={jcard.jobcard} onChange={handleChange} required/>
                         <label>Job Card</label>
                     </div>
                     <div className="user-box">
                         
-                        <input type="text" name='cname' value={jcard.cname} onChange={handleChange} required/>
+                        <input autoComplete='off' type="text" name='cname' value={jcard.cname} onChange={handleChange} required/>
                         <label>Customer Name</label>
                     </div>
                     <div className="user-box">
