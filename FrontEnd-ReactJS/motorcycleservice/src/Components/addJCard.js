@@ -78,41 +78,41 @@ const Add = () => {
                         <label>Customer Name</label>
                     </div>
                     <div className="user-box">
-                        <input name='vname' type="text" value={jcard.vname} onChange={handleChange} required/>
+                        <input autoComplete='off' name='vname' type="text" value={jcard.vname} onChange={handleChange} required/>
                         <label>Vehicle Name</label>
                     </div>
                     <div className="user-box">
-                        <input name='regnum' type="text" value={jcard.regnum} onChange={handleChange} size={'30'} required/>
+                        <input autoComplete='off' name='regnum' type="text" value={jcard.regnum} onChange={handleChange} size={'30'} required/>
                         <label>Vehicle Register Number</label>
                     </div>
                     <div className="user-box">
-                        <input name='engnum' type="text" value={jcard.engnum} onChange={handleChange} required/>
+                        <input autoComplete='off' name='engnum' type="text" value={jcard.engnum} onChange={handleChange} required/>
                         <label>Engine Number</label>
                     </div>
                     <div className="user-box">
-                        <input name='chsnum' type="text" value={jcard.chsnum} onChange={handleChange} required/>
+                        <input autoComplete='off' name='chsnum' type="text" value={jcard.chsnum} onChange={handleChange} required/>
                         <label>Chassis Number</label>
                     </div>
                 </Stack>
                     <Stack direction="column" spacing={2}>
                     <div className="user-box">
-                        <input name='typeofserv' type="text" value={jcard.typeofserv} onChange={handleChange} required/>
+                        <input autoComplete='off' name='typeofserv' type="text" value={jcard.typeofserv} onChange={handleChange} required/>
                         <label>Service Type</label>
                     </div>
                     <div className="user-box">
-                        <input name='prob' type="text" value={jcard.prob} onChange={handleChange} required/>
+                        <input autoComplete='off' name='prob' type="text" value={jcard.prob} onChange={handleChange} required/>
                         <label>Problems</label>
                     </div>
                     <div className="user-box">
-                        <input name='esttime' type="text" value={jcard.esttime} onChange={handleChange} size={'30'} required/>
+                        <input autoComplete='off' name='esttime' type="text" value={jcard.esttime} onChange={handleChange} size={'30'} required/>
                         <label>Estimated Time for Delivery (in Hrs)</label>
                     </div>
                     <div className="user-box">
-                        <input name='estcost' type="text" value={jcard.estcost} onChange={handleChange} required/>
+                        <input autoComplete='off' name='estcost' type="text" value={jcard.estcost} onChange={handleChange} required/>
                         <label>Estimated Cost for Service (in ₹)</label>
                     </div>
                     <div className="user-box">
-                        <input name='date' type="text" value={jcard.date} onChange={handleChange} required/>
+                        <input autoComplete='off' name='date' type="text" value={jcard.date} onChange={handleChange} required/>
                         <label>Date and Time of Service</label>
                     </div>
                     <input id='submitEdit' type='submit'/>
