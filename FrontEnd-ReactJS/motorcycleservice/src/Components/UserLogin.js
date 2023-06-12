@@ -83,11 +83,11 @@ const UserLogin = () => {
             <h2>Check Your Service History</h2>
             <form onSubmit={handleSubmit}>
                 <div className="user-box">
-                    <input autoComplete='off' type="text" id='regnum' value={values.regnum} onChange={handleChange} style={{textTransform:'uppercase'}} required/>
+                    <input autoComplete='off' type="text" id='regnum' value={values.regnum} onChange={handleChange} required/>
                     <label>Vehicle Register Number</label>
                 </div>
                 <div className="user-box">
-                    <input autoComplete='off' id='cname' type="text" value={values.cname} onChange={handleChange} style={{textTransform:'capitalize'}} required/>
+                    <input autoComplete='off' id='cname' type="text" value={values.cname} onChange={handleChange} required/>
                     <label>Customer Name</label>
                 </div>
                 <input id='submit' type='submit'/>
