@@ -83,7 +83,7 @@ const UserLogin = () => {
             <h2>Check Your Service History</h2>
             <form onSubmit={handleSubmit}>
                 <div className="user-box">
-                    <input autoComplete='off' type="text" id='regnum' value={values.regnum} onChange={handleChange} required/>
+                    <input autoComplete='off' type="text" id='regnum' value={values.regnum} onChange={handleChange} style={{textTransform:'uppercase'}} required/>
                     <label>Vehicle Register Number</label>
                 </div>
                 <div className="user-box">
