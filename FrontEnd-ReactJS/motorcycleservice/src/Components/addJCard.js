@@ -69,7 +69,7 @@ const Add = () => {
                     
                     <div className="user-box">
                         
-                        <input autoComplete='off type="text" name='jobcard' value={jcard.jobcard} onChange={handleChange} required/>
+                        <input autoComplete='off' type="text" name='jobcard' value={jcard.jobcard} onChange={handleChange} required/>
                         <label>Job Card</label>
                     </div>
                     <div className="user-box">
