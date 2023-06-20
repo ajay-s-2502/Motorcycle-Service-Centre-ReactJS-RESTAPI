@@ -64,7 +64,7 @@ const Data = () => {
 
   const handleDelete = (jobcard, regnum) => {
     deleteData(jobcard).then(() => {
-        loadData();
+        pagination();
         toast.success(`Job Card of Vehicle: ${regnum} Deleted!`, { //${}
             position: "bottom-right",
             autoClose: 3000,
